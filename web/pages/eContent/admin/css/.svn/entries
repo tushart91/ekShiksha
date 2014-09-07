@@ -1,0 +1,37 @@
+10
+
+dir
+23
+http://10.105.22.2/svn/projects/ekShiksha/web/pages/eContent/admin/css
+http://10.105.22.2/svn/projects
+
+
+
+2012-05-10T12:43:18.723231Z
+4
+service
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+65ab7c23-6efc-46b9-97f0-004e50c42ebe
+
+simple
+dir
+
+small
+dir
+
+winxp
+dir
+

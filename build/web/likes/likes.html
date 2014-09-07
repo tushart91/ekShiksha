@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="styles/likeStyle.css" rel="stylesheet" />
+        <script type="text/javascript" src="/ekShiksha/likes/scripts/likeScript.js" ></script>
+        <script type="text/javascript" >
+            /*
+            var theQueryString = window.location.search;
+            var id = theQueryString.split("=")[1];
+            */
+           var id = window.parent.location;
+           var theQueryString = window.location.search;
+           var sw = theQueryString.split("=")[1];
+        </script>
+    </head>
+    <body onload="changeContent(0, window.id, window.sw)" >
+        <div>
+            <div style="float: left; border: none; outline: none; width: 67px">
+                <a href="javascript:changeContent(1, window.id, window.sw)" >
+                    <img id="likeImg" class="likeClass" height="20" width="61" src="" />
+                </a>
+            </div>
+            <div style="padding-top: 2px" id="nooflikes"></div>
+        </div>
+    </body>
+</html>

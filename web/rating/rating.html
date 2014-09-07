@@ -1,0 +1,63 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="/ekShiksha/rating/styles/ratingStyles.css" rel="stylesheet" />
+        <script type="text/javascript" src="/ekShiksha/rating/scripts/ratingScript.js" ></script>
+        <script type="text/javascript" >
+            /*
+             * The following lines are used to extract the url of the page for
+             * which the rating has to be shown or the applet using the 
+             * applet_id which has to be passed in the query string.
+             */
+            var theQueryString = window.location.search;
+            var queryArray = theQueryString.split("&");
+            var sw = queryArray[0].split("=")[1];
+            var type = queryArray[1].split("=")[1];
+            var id = "";
+            if(type=="applet")
+                id = queryArray[2].split("=")[1];
+            if(type=="webpage")
+                var id = window.parent.location;
+        </script>
+    </head>
+    <body onload="changeContent(0, window.id, window.sw)">
+        <div onmouseout="loadStar(window.sw)" style="float:left">
+            <div style="float: left; border: none; outline: none;">
+                <a href="javascript:changeContent(1, window.id, window.sw)" >
+                    <img id="star1" src="images/emptyStar.gif" onmouseover="hoverStar(1)" />
+                </a>
+            </div>
+            <div style="float: left">
+                <a href="javascript:changeContent(2, window.id, window.sw)" >
+                    <img id="star2" src="images/emptyStar.gif" onmouseover="hoverStar(2)" />
+                </a>
+            </div>
+            <div style="float: left">
+                <a href="javascript:changeContent(3, window.id, window.sw)" >
+                    <img id="star3" src="images/emptyStar.gif" onmouseover="hoverStar(3)" />
+                </a>
+            </div>
+            <div style="float: left">
+                <a href="javascript:changeContent(4, window.id, window.sw)" >
+                    <img id="star4" src="images/emptyStar.gif" onmouseover="hoverStar(4)" />
+                </a>
+            </div>
+            <div style="float: left">
+                <a href="javascript:changeContent(5, window.id, window.sw)" >
+                    <img id="star5" src="images/emptyStar.gif" onmouseover="hoverStar(5)" />
+                </a>
+            </div>
+            <div id="voteContainer" style="z-index: 9999">
+                <div id="showRatingText" style="clear: left"></div>
+                <div id="thanksVote" style="color: #0eab0e; padding-left: 5px; padding-top: 1px"></div>
+            </div>
+        </div>
+    </body>
+</html>

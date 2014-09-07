@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>ekShiksha : Learn Four Digit Addition</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+    <style type="text/css">
+        body{margin:0;padding:0;}
+        
+    </style>
+    <script type="text/javascript" src="../js/jquery-1.6.2.min.js"></script>
+    <script type="text/javascript" src="../js/deployJava.js"></script>
+    <script type="text/javascript" src="../js/plugin_detect.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            if(detectJava()) {
+                $("#pluginmessage").hide();
+            } else {
+                $("#pluginmessage").show();
+            }
+        });
+     </script>
+     <style type="text/css">
+         #pluginmessage a {
+             color: #fefefe;
+             font-size: 12px;
+             font-weight: bold;
+             text-decoration: underline;
+         }
+      </style>
+    </head>
+<body>
+        <h6 id="pluginmessage" style="display:none;width:60%;margin-left: 20%;margin-top: 100px;">
+            There is no Java Virtual Machine installed on this system. You may need to install the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank">Java JRE</a> to see the applets.
+        </h6>
+    <div id="pluginmessage" align="center" style="display:none;margin-left:20%;width:60%;font-size: 12px;font-weight: bold;color: #f55050;margin-top: 100px;">There is no Java Virtual Machine installed on this system. You may need to install the <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html" target="_blank">Java JRE</a> to see the applets.</div>
+	<applet codebase="../applet" archive="MultipleDigitAddition.jar,blackboard.jar" code="MultipleDigitAddition/MultipleDigitAddition.class" width="800" height="720">
+        <param name="digit" value="4">
+	</applet>
+</body>
+</html>

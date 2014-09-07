@@ -1,0 +1,467 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="style/content_style.css" type="text/css">
+  </head>
+  <body>
+	<div id="contentPanel" class="contentPane">
+      <h1>SOUND</h1>
+	  <p>Everyday we hear sounds from various sources like humans, birds, bells, machines, vehicles, televisions, radios etc. Sound is a form of energy which produces a sensation
+of hearing in our ears. There are also other forms of energy like mechanical energy, heat energy, light energy etc. We have talked about mechanical energy in the previous chapters. You have been taught about conservation of energy, which states that we can neither create nor destroy energy. We can just change it from one form to another. When you clap, a sound is produced. Can you produce sound without utilising your energy? Which form of energy did you use to produce sound? In this chapter we are going to learn how sound is produced and how it is transmitted through a medium and received by our ear.</p>
+	<h2>1 Production of Sound</h2>
+	<fieldset class="activity">
+		<legend class="activity-legend">Activity 1</legend>
+		<ul class="activity-list">
+			<li>Take a tuning fork and set it vibrating by striking its prong on a rubber pad. Bring it near your ear.</li>
+			<li>Do you hear any sound?</li>
+			<li>Touch one of the prongs of the vibrating tuning fork with your finger and share your experience with your friends.</li>
+			<li>Now, suspend a table tennis ball or a small plastic ball by a thread from a support [Take a big needle and a thread, put a knot at one end of the thread, and then with the help of the needle pass the thread through the ball]. Touch the ball gently with the prong of a vibrating tuning fork (Fig. 1).</li>
+			<li>Observe what happens and discuss with your friends.</li>
+		</ul>
+	</fieldset>
+	<div class="images"><img src="images_sound_IX/figure_1.JPG"><br>Fig.1 Vibrating tuning fork just touching the suspended table tennis ball.</div>
+	<fieldset class="activity">
+		<legend class="activity-legend">Activity 2</legend>
+		<ul class="activity-list">
+			<li>Fill water in a beaker or a glass up to the brim. Gently touch the water surface with one of the prongs of the vibrating tuning fork, as shown in Fig. 2.</li>
+			<li>Next dip the prongs of the vibrating tuning fork in water, as shown in Fig. 3.</li>
+			<li>Observe what happens in both the cases.</li>
+			<li>Discuss with your friends why this happens.</li>
+		</ul>
+		<div class="images"><img src="images_sound_IX/figure_2.JPG"><br>Fig.2 One of the prongs of the vibrating tuning fork touching the water surface.</div>
+		<div class="images"><img src="images_sound_IX/figure_3.JPG"><br>Fig.3 Both the prongs of the vibrating tuning fork dipped in water.</div>
+	</fieldset>
+	<p>From the above activities what do you conclude? Can you produce sound without a vibrating object?</p>
+	<p>In the above activities we have produced sound by striking the tuning fork. We can also produce sound by plucking, scratching, rubbing, blowing or shaking different objects. As per the above activities what do we do to the objects? We set the objects vibrating and produce sound. Vibration means a kind of rapid to and fro motion of an object. The sound of the human voice is produced due to vibrations in the vocal cords. When a bird flaps its wings, do you hear any sound? Think how the buzzing sound accompanying a bee is produced. A stretched rubber band when plucked vibrates and produces sound. If you have never done this, then do it and observe the vibration of the stretched rubber band.
+</p>
+	<fieldset class="activity">
+		<legend class="activity-legend">Activity 3</legend>
+		<ul class="activity-list">
+			<li>Make a list of different types of musical instruments and discuss with your friends which part of the instrument vibrates to produce sound.</li>
+		</ul>
+	</fieldset>
+	<h2>2 Propagation of Sound</h2>
+	<p>Sound is produced by vibrating objects. The matter or substance through which sound is transmitted is called a medium. It can be solid, liquid or gas. Sound moves through a
+medium from the point of generation to the listener. When an object vibrates, it sets the particles of the medium around it vibrating. The particles do not travel all the way from
+the vibrating object to the ear. A particle of the medium in contact with the vibrating object is first displaced from its equilibrium position. It then exerts a force on the adjacent particle. As a result of which the adjacent particle gets displaced from its position of rest. After displacing the adjacent particle the first particle comes back to its original position. This process continues in the medium till the sound reaches your ear. The disturbance created by a source of sound in the medium travels through the medium and
+not the particles of the medium.</p>
+	<div class="think">
+		<h4 style="text-align:center">Can sound make a light spot dance?</h4>
+		<p>Take a tin can. Remove both ends to make it a hollow cylinder. Take a balloon and stretch it over the can, then wrap a rubber band around the balloon. Take a small piece of mirror. Use a drop of glue to stick the piece of mirror to the balloon. Allow the light through a slit to fall on the mirror. After reflection the light spot is seen on the wall, as shown in Fig. 4. Talk or shout directly into the open end of the can and observe the dancing light spot on the wall. Discuss with your friends what makes the light spot dance.</p>
+		<div class="images"><img src="images_sound_IX/figure_4.JPG"><br>Fig.4 A beam of light from a light source is made to fall on a mirror. The reflected light is falling on the wall.</div>
+	</div>
+	<p>A wave is a disturbance that moves through a medium when the particles of the medium set neighboring particles into motion. They in turn produce similar motion
+in others. The particles of the medium do not move forward themselves, but the disturbance is carried forward. This is what happens during propagation of sound in a
+medium, hence sound can be visualized as a wave. Sound waves are characterized by the motion of particles in the medium and are called mechanical waves.</p>
+	<p>Air is the most common medium through which sound travels. When a vibrating object moves forward, it pushes and compresses the air in front of it creating a region of high pressure. This region is called a compression (C), as shown in Fig. 5. This compression starts to move away from the vibrating object. When the vibrating object moves backwards, it creates a region of low pressure called rarefaction (R), as shown in Fig. 5. As the object moves back and forth rapidly, a series of compressions and rarefactions is created in the air. These make the sound wave that propagates through the medium. Compression is the region of high pressure and rarefaction is the region of low pressure. Pressure is related to the number of particles of a medium in a given volume. More density of the particles in the medium gives more pressure and vice versa. Thus, propagation of sound can be visualized as propagation of density variations or pressure variations in the medium.</p>
+	<div class="images"><img src="images_sound_IX/figure_5.JPG"><br>Fig.5 A vibrating object creating a series of compressions (C) and rarefactions (R) in the medium.</div>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>How does the sound produced by a vibrating object in a medium reach your ear?</li>
+		</ul>
+	</div>
+	<h3>2.1 SOUND NEEDS A MEDIUM TO TRAVEL</h3>
+	<p>Sound is a mechanical wave and needs a material medium like air, water, steel etc. for its propagation. It cannot travel through vacuum, which can be demonstrated by the
+following experiment.</p>
+	<p>Take an electric bell and an airtight glass bell jar. The electric bell is suspended inside the airtight bell jar. The bell jar is connected to a vacuum pump, as shown in Fig. 6. If you press the switch you will be able to hear the bell. Now start the vacuum pump. When the air in the jar is pumped out gradually, the sound becomes fainter, although the same current is passing through the bell. After some time when less air is left inside the bell jar you will hear a very feeble sound. What will happen if the air is removed completely? Will you still be able to hear the sound of the bell?</p>
+	<div class="images"><img src="images_sound_IX/figure_6.JPG"><br>Fig.6 Bell jar experiment showing sound cannot travel in vacuum.</div>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>Explain how sound is produced by your school bell.</li>
+			<li>Why are sound waves called mechanical waves?</li>
+			<li>Suppose you and your friend are on the moon. Will you be able to hear any sound produced by your friend?</li>
+		</ul>
+	</div>
+	<h3>2.2 SOUND WAVES ARE LONGITUDINAL WAVES</h3>
+	<fieldset class="activity">
+		<legend class="activity-legend">Activity 4</legend>
+		<ul class="activity-list">
+			<li>Take a slinky. Ask your friend to hold one end. You hold the other end. Now stretch the slinky as shown in Fig. 7 (a). Then give it a sharp push towards your friend.</li>
+			<li>What do you notice? If you move your hand pushing and pulling the slinky alternatively, what will you observe?</li>
+			<li>If you mark a dot on the slinky, you will observe that the dot on the slinky will move back and forth parallel to the direction of the propagation of the disturbance.</li>
+			<li>Reverse the spoon and repeat the Activity. How does the image look like now?</li>
+			<li>Compare the characteristics of the image on the two surfaces.</li>
+		</ul>
+	</fieldset>
+	<div class="images"><img src="images_sound_IX/figure_7.JPG"><br>Fig.7 Longitudinal wave in a slinky.</div>
+	<p>The regions where the coils become closer are called compressions (C) and the regions where the coils are further apart are called rarefactions (R). As we already know, sound propagates in the medium as a series of compressions and rarefactions. Now, we can compare the propagation of disturbance in a slinky with the sound propagation in the medium. These waves are called longitudinal waves. In these waves the individual particles of the medium move in a direction parallel to the direction of propagation of the
+disturbance. The particles do not move from one place to another but they simply oscillate back and forth about their position of rest. This is exactly how a sound wave propagates, hence sound waves are longitudinal waves.</p>
+	<p>There is also another type of wave, called a transverse wave. In a transverse wave particles do not oscillate along the line of wave propagation but oscillate up and down
+about their mean position as the wave travels. Thus a transverse wave is the one in which the individual particles of the medium move about their mean positions in a direction
+perpendicular to the direction of wave propagation. Light is a transverse wave but for light, the oscillations are not of the medium particles or their pressure or density
+– it is not a mechanical wave. You will come to know more about transverse waves in higher classes.</p>
+	<h3>2.3 CHARACTERISTICS OF A SOUND WAVE</h3>
+	<p>We can describe a sound wave by its</p>
+	<ul>
+		<li>frequency</li>
+		<li>amplitude and</li>
+		<li>speed.</li>
+	</ul>
+	<p>A sound wave in graphic form is shown in Fig. 8(c), which represents how density and pressure change when the sound wave moves in the medium. The density as well as
+the pressure of the medium at a given time varies with distance, above and below the average value of density and pressure. Fig. 8(a) and Fig. 8(b) represent the density and pressure variations, respectively, as a sound wave propagates in the medium.</p>
+	<p>Compressions are the regions where particles are crowded together and represented by the upper portion of the curve in Fig. 8(c). The peak represents the region of maximum compression. Thus, compressions are regions where density as well as pressure is high. Rarefactions are the regions of low pressure where particles are spread apart and are represented by the valley, that is, the lower portion of the curve in Fig. 8(c). A peak is called the crest and a valley is called the trough of a wave.</p>
+	<div class="images"><img src="images_sound_IX/figure_8.JPG"><br>Fig.8 Sound propagates as density or pressure variations as shown in (a) and (b), (c) represents graphically the density and pressure variations.</div>
+	<p>The distance between two consecutive compressions (C) or two consecutive rarefactions (R) is called the wavelength, as shown in Fig. 8(c), The wavelength is
+usually represented by λ (Greek letter lambda). Its SI unit is metre (m).
+</p>
+	<div class="think">
+	<p>Heinrich Rudolph Hertz was born on 22 February 1857 in Hamburg, Germany and educated at the University of Berlin. He confirmed J.C. Maxwell’s electromagnetic theory by his experiments. He laid the foundation for future development of radio, telephone, telegraph and even television. He also discovered the photoelectric effect which was later explained by Albert Einstein. The SI unit of frequency was named as hertz in his honour.</p>
+	<div class="images"><img src="images_sound_IX/hertz.JPG"></div>
+	</div>
+	<p>Frequency tells us how frequently an event occurs. Suppose you are beating a drum. How many times you are beating the drum per unit time is called the frequency of
+your beating the drum. We know that when sound is propagated through a medium, the density of the medium oscillates between a maximum value and a minimum value. The
+change in density from the maximum value to the minimum value, again to the maximum value, makes one complete oscillation. The number of such oscillations per unit time is
+the frequency of the sound wave. If we can count the number of the compressions or rarefactions that cross us per unit time, we will get the frequency of the sound wave. It is
+usually represented by ν (Greek letter, nu). Its SI unit is hertz (symbol, Hz).</p>
+	<p>The time taken by two consecutive compressions or rarefactions to cross a fixed point is called the time period of the wave. In other words, we can say that the time taken
+for one complete oscillation in the density of the medium is called the time period of the sound wave. It is represented by the symbol T. Its SI unit is second (s). Frequency and
+time period are related as follows:</p>
+	<div class="equation" style="height:50px;">
+		<div style="float:left;height:50px;vertical-align:middle;line-height:50px;padding-right:10px;">&nu; =</div>
+		<div style="float:left;height:50px;text-align:center;">
+			<div style="border-bottom:1px solid #21bef7;padding-left:5px;padding-right:5px;text-align:center;">1</div>
+			<div>T</div>
+		</div>
+	</div>
+	<p>A violin and a flute may both be played at the same time in an orchestra. Both sounds travel through the same medium, that is, air and arrive at our ear at the same time. Both sounds travel at the same speed irrespective of the source. But the sounds we receive are different. This is due to the different characteristics associated with the sound. Pitch is one of the characteristics.</p>
+	<p>How the brain interprets the frequency of an emitted sound is called the pitch. The faster the vibration of the source, the higher is the frequency and the higher is the pitch, as shown in Fig. 9. Thus, a high pitch sound corresponds to more number of compressions and rarefactions passing a fixed point per unit time.</p>
+	<p>Objects of different sizes and conditions vibrate at different frequencies to produce sounds of different pitch.</p>
+	<div class="images"><div class="images"><img src="images_sound_IX/figure_9_1.JPG"><br>Wave shape for a low pitched sound.</div>
+	<div class="images"><img src="images_sound_IX/figure_9_2.JPG"><br>Wave shape for a high pitched sound.</div>
+	<br>Fig.9 Low pitch sound has low frequency and high pitch of sound has high frequency.</div>
+	<p>The magnitude of the maximum disturbance in the medium on either side of the mean value is called the amplitude of the wave. It is usually represented by the letter A, as shown in Fig. 8(c). For sound its unit will be that of density or pressure.</p>
+	<p>The loudness or softness of a sound is determined basically by its amplitude. The amplitude of the sound wave depends upon the force with which an object is made to vibrate. If we strike a table lightly, we hear a soft sound because we produce a sound wave of less energy (amplitude). If we hit the table hard we hear a loud sound. Can you tell why? Loud sound can travel a larger distance as it is associated with higher energy. A sound wave spreads out from its source. As it moves away from the source its amplitude as well as its loudness decreases. Fig. 10 shows the wave shapes of a loud and a soft sound of the same frequency.</p>
+	<div class="images"><div class="images"><img src="images_sound_IX/figure_10_1.JPG"><br>Soft sound</div>
+	<div class="images"><img src="images_sound_IX/figure_10_2.JPG"><br>Louder sound</div>
+	<br>Fig.10 Soft sound has small amplitude and louder sound has large amplitude.</div>
+	<p>The quality or timber of sound is that characteristic which enables us to distinguish one sound from another having the same pitch and loudness. The sound which is more pleasant is said to be of a rich quality. A sound of single frequency is called a tone. The sound which is produced due to a mixture of several frequencies is called a note and is pleasant to listen to. Noise is unpleasant to the ear! Music is pleasant to hear and is of rich quality.</p>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>Which wave property determines
+				<ul class="question-sub-list">
+					<li>loudness,</li>
+					<li>pitch?</li>
+				</ul>
+			</li>
+			<li>Guess which sound has a higher pitch: guitar or car horn?</li>
+		</ul>
+	</div>
+	<p>The speed of sound is defined as the distance which a point on a wave, such as a compression or a rarefaction, travels per unit time.</p>
+	<p>We know,</p>
+	<div class="equation">speed, v = Distance / Time</div>
+	<div class="equation">
+		= &lambda;/T
+        </div>
+	<p>Here &lambda; is the wavelength of the sound wave. It is the distance traveled by the sound wave in one time period (T) of the wave. Thus,</p>
+	<div class="equation">
+		or, &nbsp;v = &lambda;v[ Q (1/T) = &nu; ]
+	</div>
+	<p>That is, speed = wavelength × frequency.</p>
+	<p>The speed of sound remains almost the same for all frequencies in a given medium under the same physical conditions.</p>
+	
+	<div class="example">
+	<div class="exam_no">Example 1</div>
+	<p>A sound wave has a frequency of 2 kHz and wave length 35 cm. How long will it take to travel 1.5 km?</p>
+	<div class="exam_no">Solution</div>
+	<p>Given<br>
+	Frequency, &nu; = 2 kHz = 2000 Hz<br>
+	Wavelength, &lambda; = 35 cm = 0.35 m<br>
+	We know that speed, v of the wave<br>
+			= wavelength frequency<br>
+	  v = λ &nu;<br>
+	= 0.35 m × 2000 Hz = 700 m/s<br><br>
+	The time taken by the wave to travel a distance, d of 1.5 km is 2.1s<br>
+	Thus sound will take 2.1 s to travel a distance of 1.5 km.
+	</p>
+	</div>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>What are wavelength, frequency, time period and amplitude of a sound wave?</li>
+			<li>How are the wavelength and frequency of a sound wave related to its speed?</li>
+			<li>Calculate the wavelength of a sound wave whose frequency is 220 Hz and speed is 440 m/s in a given medium.</li>
+			<li>A person is listening to a tone of 500 Hz sitting at a distance of 450 m from the source of the sound. What is the time interval between successive compressions from the source?</li>
+		</ul>
+	</div>
+	<p>The amount of sound energy passing each second through unit area is called the intensity of sound. We sometimes use the terms "loudness" and "intensity" interchangeably, but they are not the same. Loudness is a measure of the response of the ear to the sound. Even when two sounds are of equal intensity, we may hear one as louder than the other simply because our ear detects it better.</p>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>Distinguish between loudness and intensity of sound.</li>
+		</ul>
+	</div>
+	<h3>2.4 SPEED OF SOUND IN DIFFERENT MEDIA</h3>
+	<p>Sound propagates through a medium at a finite speed. The sound of a thunder is heard a little later than the flash of light is seen. So, we can make out that sound travels with a speed which is much less than the speed of light. The speed of sound depends on the properties of the medium through which it travels. You will learn about this dependence
+in higher classes. The speed of sound in a medium depends also on temperature and pressure of the medium. The speed of sound decreases when we go from solid to gaseous state. In any medium as we increase the temperature the speed of sound increases. For example, the speed of sound in air is 331 m s<sup>–1</sup> at 0 &deg;C and 344 m s<sup>–1</sup> at 22 &deg;C. The speeds of sound at a particular temperature in various media are listed in Table 1. You need not memorize the values.</p>
+	<h5><strong>Table 1:</strong> Speed of sound in different media at 25 &deg;C</h5>
+	<table>
+		<tr class="blue-th">
+			<th>State</th>
+			<th>Substance</th>
+			<th>Speed in m/s</th>
+		</tr>
+	  <tr class="blue-td">
+		<td rowspan="6">Solids</td>
+		<td>Aluminium</td>
+		<td>6420</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Nickel</td>
+        <td>6040</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Steel</td>
+        <td>5960</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Iron</td>
+        <td>5950</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Brass</td>
+        <td>4700</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Glass (Flint)</td>
+        <td>3980</td>
+	  </tr>
+	  <tr class="blue-td">
+		<td>Water (Sea)</td>
+		<td>1531</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Water (distilled)</td>
+        <td>1498</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Ethanol</td>
+        <td>1207</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Methanol</td>
+        <td>1103</td>
+	  </tr>
+	  <tr class="blue-td">
+		<td rowspan="5">Gases</td>
+		<td>Hydrogen</td>
+		<td>1284</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Helium</td>
+        <td>965</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Air</td>
+        <td>346</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Oxygen</td>
+        <td>316</td>
+	  </tr>
+	  <tr class="blue-td">
+	    <td>Sulphur dioxide</td>
+        <td>213</td>
+	  </tr>
+	</table>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>1.	In which of the three media, air, water or iron, does sound travel the fastest at a particular temperature?</li>
+		</ul>
+	</div>
+	<div class="think">
+	<p><strong>Sonic boom:</strong> When the speed of any object exceeds the speed of sound it is said to be
+	traveling at supersonic speed. Bullets, jet aircrafts etc. often travel at supersonic speeds. When a sound, producing source moves with a speed higher than that of sound, it produces shock waves in air. These shock waves carry a large amount of energy. The air pressure variation associated with this type of shock waves produces a very sharp and loud sound called the “sonic boom”. The shock waves produced by a supersonic aircraft have enough energy to shatter glass and even damage buildings.
+	</p>
+	</div>
+	<h2>3 Reflection of Sound</h2>
+	<p>Sound bounces off a solid or a liquid like a rubber ball bounces off a wall. Like light, sound gets reflected at the surface of a solid or liquid and follows the same laws of reflection as you have studied in earlier classes. The directions in which the sound is incident and is reflected make equal angles with the normal to the reflecting surface, and the three are in the same plane. An obstacle of large size which may be polished or rough is needed for the reflection of sound waves.</p>
+	<fieldset class="activity">
+		<legend class="activity-legend">Activity 5</legend>
+		<ul class="activity-list">
+			<li>Take two identical pipes, as shown in Fig. 11. You can make the pipes using chart paper. The length of the pipes should be sufficiently long as shown.</li>
+			<li>Arrange them on a table near a wall.</li>
+			<li>Keep a clock near the open end of one of the pipes and try to hear the sound of the clock through the other pipe.</li>
+			<li>Adjust the position of the pipes so that you can best hear the sound of the clock.</li>
+			<li>Now, measure the angles of incidence and reflection and see the relationship between the angles.</li>
+			<li>Lift the pipe on the right vertically to a small height and observe what happens.</li>
+		</ul>
+	</fieldset>
+	<div class="images"><img src="images_sound_IX/figure_11.JPG"><br>Fig.11 Reflection of sound</div>
+	<h3>3.1 ECHO</h3>
+	<p>If we shout or clap near a suitable reflecting object such as a tall building or a mountain, we will hear the same sound again a little later. This sound which we hear is called an echo. The sensation of sound persists in our brain for about 0.1 s. To hear a distinct echo the time interval between the original sound and the reflected one must be at least 0.1s. If we take the speed of sound to be 344 m/s at a given temperature, say at 22 &deg;C in air, the sound must go to the obstacle and reach back the ear of the listener on reflection after 0.1s. Hence, the total distance covered by the sound from the point of generation to the reflecting surface and back should be at least (344 m/s) × 0.1 s = 34.4 m. Thus, for hearing distinct echoes, the minimum distance of the obstacle from the source of sound must be half of this distance, that is, 17.2 m. This distance will change with the temperature of air. Echoes may be heard more than once due to successive or multiple reflections. The rolling of thunder is due to the successive reflections of the sound from a number of reflecting surfaces, such as the clouds and the land.</p>
+	<h3>3.2 REVERBERATION</h3>
+	<p>A sound created in a big hall will persist by repeated reflection from the walls until it is reduced to a value where it is no longer audible. The repeated reflection that results in this persistence of sound is called reverberation. In an auditorium or big hall excessive reverberation is highly undesirable. To reduce reverberation, the roof and walls of the auditorium are generally covered with sound-absorbent materials like compressed fibreboard, rough plaster or draperies. The seat materials are also selected on the basis of their sound absorbing properties.</p>
+	<div class="example">
+	<div class="exam_no">Example 2</div>
+	<p>A person clapped his hands near a cliff and heard the echo after 5 s. What is the distance of the cliff from the person if the speed of the sound, v is taken as 
+346 m s<sup>–1</sup>?
+</p>
+	<div class="exam_no">Solution</div>
+	<p>	Given,<br>Speed of sound, v = 346 m s<sup>–1</sup><br>
+Time taken for hearing the echo,<br>t = 5 s<br>Distance traveled by the sound<br><br>= v × t = 346 m s<sup>–1</sup> × 5 s = 1730 m<br><br>
+In 5 s sound has to travel twice the distance between the cliff and the person. Hence, the distance between the cliff and the person<br><br>= 1730m / 2 = 865 m.</p>
+	</div>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>An echo returned in 3 s. What is the distance of the reflecting surface from the source, given that the speed of sound is 342 m s<sup>–1</sup>?</li>
+		</ul>
+	</div>
+	<h3>3.3 USES OF MULTIPLE REFLECTION OF SOUND</h3>
+	<ul style="list-style:decimal">
+		<li>Megaphones or loudhailers, horns, musical instruments such as trumpets and shehanais, are all designed to send sound in a particular direction without spreading it in all directions, as shown in Fig 12.
+		<div class="images">
+		<div class="images"><img src="images_sound_IX/figure_12_1.JPG"><br>Megaphone</div>
+		<div class="images"><img src="images_sound_IX/figure_12_2.JPG"><br>Horn</div>
+		<br>Fig.12 A megaphone and a horn</div>
+		In these instruments, a tube followed by a conical opening reflects sound successively to guide most of the sound waves from the source in the forward direction towards the audience.
+		</li>
+		<li>Stethoscope is a medical instrument used for listening to sounds produced within the body, chiefly in the heart or lungs. In stethoscopes the sound of the patient’s heartbeat reaches the doctor’s ears by multiple reflection of sound, as shown in Fig.13.
+		<div class="images"><img src="images_sound_IX/figure_13.JPG"><br>Fig.13 Stethoscope</div>
+		</li>
+		<li>Generally the ceilings of concert halls, conference halls and cinema halls are curved so that sound after reflection reaches all corners of the hall, as shown in Fig 14. Sometimes a curved soundboard may be placed behind the stage so that the sound, after reflecting from the sound board, spreads evenly across the width of the hall (Fig 15).</li>
+		<div class="images"><img src="images_sound_IX/figure_14.JPG"><br>Fig.14 Curved ceiling of a conference hall.</div>
+		<div class="images"><img src="images_sound_IX/figure_15.JPG"><br>Fig.15 Sound board used in a big hall.</div>
+	</ul>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>Why are the ceilings of concert halls curved?</li>
+		</ul>
+	</div>
+	<h2>4 Range of Hearing</h2>
+	<p>The audible range of sound for human beings extends from about 20 Hz to 20000 Hz (one Hz = one cycle/s). Children under the age of five and some animals, such as dogs can hear up to 25 kHz (1 kHz = 1000 Hz). As people grow older their ears become less sensitive to higher frequencies. Sounds of frequencies below 20 Hz are called infrasonic sound or infrasound. If we could hear infrasound we would hear the vibrations of a pendulum just as we hear the vibrations of the wings of a bee. Rhinoceroses communicate using infrasound of frequency as low as 5 Hz. Whales and elephants produce sound in the infrasound range. It is observed that some animals get disturbed before earthquakes. Earthquakes produce low-frequency infrasound before the main shock waves begin which possibly alert the animals. Frequencies higher than 20 kHz are called ultrasonic sound or ultrasound. Ultrasound is produced by dolphins, bats and porpoises. Moths of certain families have very sensitive hearing equipment. These moths can hear the high frequency squeaks of the bat and know when a bat is flying nearby, and are able to escape capture. Rats also play games by producing ultrasound.</p>
+	<div class="think">
+	<p><strong>Hearing Aid:</strong> People with hearing loss may need a hearing aid. A hearing aid is an electronic, battery operated device. The hearing aid receives sound through a microphone. The microphone converts the sound waves to electrical signals. These electrical signals are amplified by an amplifier. The amplified electrical signals are given to a speaker of the hearing aid. The speaker converts the amplified electrical signal to sound and sends to the ear for clear hearing.</p>
+	</div>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>What is the audible range of the average human ear?</li>
+			<li>What is the range of frequencies associated with
+			<ul class="question-sub-list">
+			<li>Infrasound?</li>
+			<li>Ultrasound?</li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+	<h2>5 Applications of Ultrasound</h2>
+	<p>Ultrasounds are high frequency waves. Ultrasounds are able to travel along well defined paths even in the presence of obstacles. Ultrasounds are used extensively in industries and for medical purposes.</p>
+	<ul>
+		<li>Ultrasound is generally used to clean parts located in hard-to-reach places, for example, spiral tube, odd shaped parts, electronic components etc. Objects to be cleaned are placed in a cleaning solution and ultrasonic waves are sent into the solution. Due to the high frequency, the particles of dust, grease and dirt get detached and drop out. The objects thus get thoroughly cleaned.</li>
+		<li>Ultrasounds can be used to detect cracks and flaws in metal blocks. Metallic components are generally used in construction of big structures like buildings, bridges, machines and also scientific equipment. The cracks or holes inside the metal blocks, which are invisible from outside reduces the strength of the structure. Ultrasonic
+waves are allowed to pass through the metal block and detectors are used to detect the transmitted waves. If there is even a small defect, the ultrasound gets reflected back indicating the presence of the flaw or defect, as shown in Fig. 16</li>
+	</ul>
+	<div class="images"><img src="images_sound_IX/figure_16.JPG"><br>Fig.16 Ultrasound is reflected back from the defective locations inside a metal block.</div>
+	<p>Ordinary sound of longer wavelengths cannot be used for such purpose as it will bend around the corners of the defective location and enter the detector.</p>
+	<ul>
+		<li>Ultrasonic waves are made to reflect from various parts of the heart and form the image of the heart. This technique is called 'echocardiography'.</li>
+		<li>Ultrasound scanner is an instrument which uses ultrasonic waves for getting images of internal organs of the human body. A doctor may image the patient’s organs such as the liver, gall bladder, uterus, kidney, etc. It helps the doctor to detect abnormalities, such as stones in the gall bladder and kidney or tumours in different organs. In this technique the ultrasonic waves travel through the tissues of the body and get reflected from a region where there is a change of tissue density. These waves are then converted into electrical signals that are used to generate images of the organ. These images are then displayed on a monitor or printed on a film. This technique is called ‘ultrasonography’. Ultrasonography is also used for examination of the foetus during pregnancy to detect congenial defects and growth abnormalities.</li>
+		<li>Ultrasound may be employed to break small ‘stones’ formed in the kidneys into fine grains. These grains later get flushed out with urine.</li>
+	</ul>
+	<h3>5.1   SONAR</h3>
+	<p>The acronym SONAR stands for Sound Navigation And Ranging. Sonar is a device that uses ultrasonic waves to measure the distance, direction and speed of underwater objects. How does the sonar work? Sonar consists of a transmitter and a detector and is installed in a boat or a ship, as shown in Fig. 17.</p>
+	<div class="images"><img src="images_sound_IX/figure_17.JPG"><br>Fig.17 Ultrasound sent by the transmitter and received by the detector.</div>
+	<p>The transmitter produces and transmits ultrasonic waves. These waves travel through
+water and after striking the object on the seabed, get reflected back and are sensed by the detector. The detector converts the ultrasonic waves into electrical signals which are appropriately interpreted. The distance of the object that reflected the sound wave can be calculated by knowing the speed of sound in water and the time interval between transmission and reception of the ultrasound. Let the time interval between transmission and reception of ultrasound signal be t and the speed of sound through seawater be v. The total distance, 2d traveled by the ultrasound is then, 2d = v × t. The above method is called echo-ranging. The sonar technique is used to determine the depth of the sea and to locate underwater hills, valleys, submarine, icebergs, sunken ship etc.</p>
+	<div class="example">
+	<div class="exam_no">Example 3</div>
+	<p>A ship sends out ultrasound that returns from the seabed and is detected after 3.42 s. If the speed of ultrasound through seawater is 1531 m/s, what is the distance of the seabed from the ship?</p>
+	<div class="exam_no">Solution</div>
+	<p>
+	Given,<br>
+	Time between transmission and<br>
+	detection, t = 3.42 s.<br>
+	Speed of ultrasound in sea water,<br>
+	  v = 1531 m/s<br>
+	Distance travelled by the ultrasound<br>
+	= 2 × depth of the sea = 2d<br>
+	where d is the depth of the sea.<br>
+	2d = speed of sound × time<br>
+	= 1531 m/s × 3.42 s = 5236 m<br>
+	d = 5236m / 2 = 2618 m.<br>
+	Thus, the distance of the seabed from the ship is 2618 m or 2.62 km.
+	</p>
+	</div>
+	<div class="question">
+		<div class="question-heading">QUESTIONS</div>
+		<ul class="question-list">
+			<li>A submarine emits a sonar pulse, which returns from an underwater cliff in  1.02 s. If the speed of sound in salt water is 1531 m/s, how far away is the cliff?
+</li>
+		</ul>
+	</div>
+	<p>As mentioned earlier, bats search out prey and fly in dark night by emitting and detecting reflections of ultrasonic waves. The high-pitched ultrasonic squeaks of the bat
+are reflected from the obstacles or prey and returned to bat’s ear, as shown in Fig. 18. The nature of reflections tells the bat where the obstacle or prey is and what it is like. Porpoises also use ultrasound for navigation and location of food in the dark.</p>
+	<div class="images"><img src="images_sound_IX/figure_18.JPG"><br>Fig.18 Ultrasound is emitted by a bat and it is reflected back by the prey or an obstacle.</div>
+	<h2>6 Structure of Human Ear</h2>
+	<p>How do we hear? We are able to hear with the help of an extremely sensitive device called the ear. It allows us to convert pressure variations in air with audible frequencies into electric signals that travel to the brain via the auditory nerve. The auditory aspect of human ear is discussed below.</p>
+	<div class="images"><img src="images_sound_IX/figure_19.JPG"><br>Fig.19 Auditory parts of human ear</div>
+	<p>The outer ear is called ‘pinna’. It collects the sound from the surroundings. The collected sound passes through the auditory canal. At the end of the auditory canal there
+is a thin membrane called the ear drum or  tympanic membrane. When a compression of the medium reaches the eardrum the pressure on the outside of the membrane increases and forces the eardrum inward. Similarly, the eardrum moves outward when a rarefaction reaches it. In this way the eardrum vibrates. The vibrations are amplified several times by three bones (the hammer, anvil and stirrup) in the middle ear. The middle ear transmits the amplified pressure variations received from the sound wave to the inner ear. In the inner ear, the pressure variations are turned into electrical signals by the cochlea. These electrical signals are sent to the brain via the auditory nerve, and the brain interprets them as sound.</p>
+	<fieldset class="what-learnt">
+		<legend class="what-learnt-legend">What you have learnt</legend>
+		<ul class="what-learnt-list">
+			<li>Sound is produced due to vibration of different objects.</li>
+			<li>Sound travels as a longitudinal wave through a material medium.</li>
+			<li>Sound travels as successive compressions and rarefactions in the medium.</li>
+			<li>In sound propagation, it is the energy of the sound that travels and not the particles of the medium.</li>
+			<li>Sound cannot travel in vacuum.</li>
+			<li>The change in density from one maximum value to the minimum value and again to the maximum value makes one complete oscillation.</li>
+			<li>The distance between two consecutive compressions or two consecutive rarefactions is called the wavelength, &lambda;.</li>
+			<li>The time taken by the wave for one complete oscillation of the density or pressure of the medium is called the time period, T.</li>
+			<li>The number of complete oscillations per unit time is called the frequency (&nu;),  &nu; = 1/T </li>
+			<li>The speed v, frequency &nu;, and wavelength &lambda;, of sound are related by the equation, v = &lambda;&nu;.</li>
+			<li>The speed of sound depends primarily on the nature and the temperature of the transmitting medium.</li>
+			<li>The law of reflection of sound states that the directions in which the sound is incident and reflected make equal angles with the normal to the reflecting surface and the three lie in the same plane.</li>
+			<li>For hearing a distinct sound, the time interval between the original sound and the reflected one must be at least 0.1 s.</li>
+			<li>The persistence of sound in an auditorium is the result of repeated reflections of sound and is called reverberation.</li>
+			<li>Sound properties such as pitch, loudness and quality are determined by the corresponding wave properties.</li>
+			<li>Loudness is a physiological response of the ear to the intensity of sound.</li>
+			<li>The amount of sound energy passing each second through unit area is called the intensity of sound.</li>
+			<li>The audible range of hearing for average human beings is in the frequency range of  20 Hz – 20 kHz.</li>
+			<li>Sound waves with frequencies below the audible range are termed "infrasonic" and those above the audible range are termed "ultrasonic".</li>
+			<li>Ultrasound has many medical and industrial applications.</li>
+			<li>The SONAR technique is used to determine the depth of the sea and to locate under water hills, valleys, submarines, icebergs, sunken ships etc.</li>
+		</ul>
+	</fieldset>
+	<fieldset class="exercise">
+		<legend class="exercise-legend">EXERCISE</legend>
+		<ul class="exercise-list">
+			<li>What is sound and how is it produced?</li>
+			<li>Describe with the help of a diagram, how compressions and rarefactions are produced in air near a source of sound.</li>
+			<li>Cite an experiment to show that sound needs a material medium for its propagation.</li>
+			<li>Why is sound wave called a longitudinal wave?</li>
+			<li>Which characteristic of the sound helps you to identify your friend by his voice while sitting with others in a dark room?</li>
+			<li>Flash and thunder are produced simultaneously. But thunder is heard a few seconds after the flash is seen, why?</li>
+			<li>A person has a hearing range from 20 Hz to 20 kHz. What are the typical wavelengths of sound waves in air corresponding to these two frequencies? Take the speed of sound in air as 344 m s<sup>–1</sup></li>
+			<li>Two children are at opposite ends of an aluminium rod. One strikes the end of the rod with a stone. Find the ratio of times taken by the sound wave in air and in aluminium to reach the second child.</li>
+			<li>The frequency of a source of sound is 100 Hz. How many times does it vibrate in a minute?</li>
+			<li>Does sound follow the same laws of reflection as light does? Explain.</li>
+			<li>When a sound is reflected from a distant object, an echo is produced. Let the distance between the reflecting surface and the source of sound production remains the same. Do you hear echo sound on a hotter day?</li>
+			<li>Give two practical applications of reflection of sound waves.</li>
+			<li>A stone is dropped from the top of a tower 500 m high into a pond of water at the base of the tower. When is the splash heard at the top? Given, g = 10 m s<sup>–2</sup> and speed of sound =340 m s<sup>–1</sup>.</li>
+			<li>A sound wave travels at a speed of 339 m s<sup>–1</sup>. If its wavelength is 1.5 cm, what is the frequency of the wave? Will it be audible?</li>
+			<li>What is reverberation? How can it be reduced?</li>
+			<li>What is loudness of sound? What factors does it depend on?</li>
+			<li>Explain how bats use ultrasound to catch a prey.</li>
+			<li>How is ultrasound used for cleaning?</li>
+			<li>Explain the working and application of a sonar.</li>
+			<li>A sonar device on a submarine sends out a signal and receives an echo 5 s later. Calculate the speed of sound in water if the distance of the object from the submarine is 3625 m.</li>
+			<li>Explain how defects in a metal block can be detected using ultrasound.</li>
+			<li>Explain how the human ear works.</li>
+		</ul>
+	</fieldset>
+	</div>
+  </body>
+</html>

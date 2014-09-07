@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+       "http://jakarta.apache.org/struts/dtds/tiles-config_1_1.dtd">
+
+
+<!--
+     This is a blank Tiles definition file with a commented example.
+-->
+
+<tiles-definitions>
+
+    <!-- sample tiles definitions
+    <definition name=".mainLayout" path="/common/layouts/classicLayout.jsp">
+        <put name="title"  value="Sample Page Title" />
+        <put name="header" value="/common/header.jsp" />
+        <put name="menu"   value=".mainMenu" />
+        <put name="footer" value="/common/footer.html" />
+        <put name="body"   value=".portal.body" />
+    </definition>
+
+    <definition name=".mainMenu" path="/common/layouts/vboxLayout.jsp" >
+        <putList name="list" >
+            <add value=".menu.links" />
+            <add value=".menu.taglib.references" />
+            <add value=".menu.printer.friendly" />
+            <add value=".menu.old.documents" />
+      </putList>
+    </definition>
+
+    <definition name="aPage" extends=".mainLayout">
+        <put name="title"  value="Another Title" />
+        <put name="body"   value=".aPage.body" />
+    </definition>
+
+    end samples -->
+
+    <!-- eContent tiles definition starts here -->
+
+
+
+     <definition name="eContentHome" path="/ekshiksha.jsp">
+         <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+         <put name="body" value="/pages/eContent/mainbody.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+     </definition>
+     <definition name="ekShikshaHome" path="/ekshiksha.jsp">
+         <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+         <put name="body" value="/pages/eContent/mainbody.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+     </definition>
+     <definition name="eContent-Introduction" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/mainbody.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+
+    <definition name="ShowContents" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/showContents.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+
+    <definition name="eContent-Show" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/showTopics.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <!-- eContent tiles definition ends here -->
+
+    <!-- eContent Admin tiles definition starts here -->
+    <definition name="eContentAdmin" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/admin/adminHome.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+
+    <definition name="addLanguageForm" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/admin/addLanguage.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="translateTopicPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/admin/translateTopic.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="addContentPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/admin/addContent.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="addHtmlContent" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/admin/addHtmlContent.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="addPropertyPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/admin/addProperty.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="translatePropertyPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/admin/translateProperty.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+
+    <definition name="translationPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+        <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/translator/translate.jsp"/>
+         <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+
+    <definition name="ShowTranslationContents" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/showTranslationContents.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+
+    <definition name="showTranslationPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/showTranslationTopics.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="showReviewerPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/showReviewerTopics.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="showPublisherPage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/eContent/showPublisherTopics.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="register" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/registration.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="registerMe" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/registration.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="successmessage" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/registration_success.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="userregistration" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/viewer_registration.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="accountrecovery" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/forgot_login_details.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="recoverysuccess" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/recovery_success.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="aboutus" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/about_us.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="contactus" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/contact_us.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="faq" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/faq.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="availableContents" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/availableContents.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="validateEmail" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/validateEmail.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="nomyaccount" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/nomyaccount.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="removeaccount" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/nomyaccount.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="feedback" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/feedback.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="feedbacksuccess" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/feedbacksuccess.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="profile" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/userprofile.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="changepassword" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/changepassword.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="viewfeedbacks" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/viewfeedbacks.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="privacysetting" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/privacysetting.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="manageusers" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/manageusers.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+     <definition name="interactivelearning" path="/ekshiksha.jsp">
+        <put name="header" value="/inc/header.jsp"/>
+         <put name="leftmenu" value="/inc/leftmenu.jsp"/>
+        <put name="body" value="/pages/interactivelearning.jsp"/>
+        <put name="footer" value="/inc/footer.jsp"/>
+    </definition>
+    <definition name="${YOUR_DEFINITION_HERE}">
+    </definition>
+
+</tiles-definitions>

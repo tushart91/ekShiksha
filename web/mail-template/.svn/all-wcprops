@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/projects/!svn/ver/4/ekShiksha/web/mail-template
+END
+password_recovery.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/projects/!svn/ver/4/ekShiksha/web/mail-template/password_recovery.html
+END
+welcome_mail.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/projects/!svn/ver/4/ekShiksha/web/mail-template/welcome_mail.html
+END
+registration_mail.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/projects/!svn/ver/4/ekShiksha/web/mail-template/registration_mail.html
+END

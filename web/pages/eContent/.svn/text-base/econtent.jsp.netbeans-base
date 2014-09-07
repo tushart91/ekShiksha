@@ -1,0 +1,11 @@
+<%@ taglib uri="/tags/struts-bean" prefix="bean" %>
+<%
+        
+        session.setAttribute("currentAction","econtent.do");
+%>
+<html>
+    <head><title><bean:message key="ec.intro.heading" /></title></head>
+        <p class="heading"><bean:message key="ec.intro.heading" /></p>
+        <p class='desc'>
+            <bean:message key="ec.page.intro"/></p><br><br>
+</html>

@@ -1,0 +1,216 @@
+/* 
+    Document   : econtent_main
+    Created on : Jul 13, 2010, 12:21:23 PM
+    Author     : Rajanikant
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.heading{
+	color:#FFFFFF;
+	background:url(/ekShiksha/eimages/redblank.gif) no-repeat;
+	width:140px;
+	text-align:center;
+	height:30px;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        font-size: 13px;
+        padding-top: 0px;
+}
+.desc{
+	color:#000000;
+	margin-left:60px;
+        margin-top: 0px;
+        width: 650px;
+}
+.links {
+	width:300px;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:70px;
+}
+.links a{
+        color:blue;
+}
+.links a:hover {
+        color:#78290D;
+        background-color: white;
+}
+
+.linkso {
+	width:550px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:20px;
+	background-color:#FF9B30;
+	font-weight:bold;
+        margin-left: 70px;
+}
+.linkse {
+	width:550px;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:20px;
+	background-color:#FFD3A4;
+	font-weight:bold;
+        margin-left: 70px;
+}
+.linksheader {
+	width:550px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	background-color:#78290D;
+	color:#FFF;
+	font-weight:bold;
+        margin-left: 70px;
+        margin-top:20px;
+
+}
+.linkso a {
+	color:#78290D;
+}
+.linkso a:hover {
+	color:#FFF;
+        background-color: #FF9B30;
+
+}
+.linkse a {
+	color:#78290D;
+}
+.linkse a:hover {
+	color:#FFF;
+        background-color: #FFD3A4;
+
+}
+.contentPane {
+    margin:0 auto;
+    width:96%;
+    padding:5px;
+}
+#contentPanel {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-right:  5px;
+    margin-left: 5px;
+}
+#contentPanel h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #86CDFF;
+    background: #E9F6FF;
+    margin-top:20px;
+    margin-bottom:15px;
+}
+#contentPanel h2 {
+    text-align: left;
+    font-size: 16px;
+    color: gold;
+    padding-top:15px;
+    padding-bottom: 2px;
+    border-bottom: 3px solid #86CDFF;
+}
+#contentPanel p {
+    text-align: left;
+    font-size:14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#contentPanel hr {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-top: 1px solid #86CDFF;
+    height:2px;
+    background: #ffffff;
+}
+#contentPanel ul {
+    margin-left: 20px;
+}
+#contentPanel li {
+    padding-top:3px;
+}
+#contentPanel th{
+    background: #E9F6FF;
+    color:#86CDFF;
+    font-size:14px;
+    font-weight: bold;
+}
+#contentPanel td{
+    font-size: 14px;
+    padding-left: 7px;
+}
+#contentPanel .formula {
+    border:2px solid #86CDFF;
+    padding:3px;
+}
+#contentPanel .decimal {
+     list-style:decimal;
+     padding-top: 5px;
+}
+#contentPanel .roman {
+    list-style: lower-roman;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+#contentPanel .space {
+    height:10px;
+    width:100%;
+}
+
+#loginPanel {
+    overflow:auto;
+    width:90%;
+    height: auto;
+    min-height: 100px;
+    margin-left: 50px;
+    font-size: 12px;
+
+}
+
+#loginPanel .label {
+    width: 100%;
+    margin-top: 5px;
+}
+#loginPanel .input input{
+    border: 1px solid #aacfe4;
+}
+#loginPanel .submit {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+ .link {
+    margin-left: 10px;
+}
+ .link ul{ /*CSS for Simple Tree Menu*/
+   
+   padding: 0;
+}
+
+ .link li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+   background: url(/ekShiksha/images/square.gif) no-repeat left center;
+   list-style-type: none;
+   padding-left: 22px;
+   margin-bottom: 1px;
+}
+
+#loginPanel .error {
+    color: #a71c27;
+    font-size: 11px;
+    display: none;
+}
+#loginPanel .jerror {
+    color: #a71c27;
+    font-size: 11px;
+}
+
+#menuPanel {
+    overflow:auto;
+    width:90%;
+    height: auto;
+    min-height: 100px;
+    margin-left: 50px;
+    font-size: 12px;
+
+}
+

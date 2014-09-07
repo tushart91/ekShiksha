@@ -1,0 +1,187 @@
+10
+
+dir
+23
+http://10.105.22.2/svn/projects/ekShiksha/web
+http://10.105.22.2/svn/projects
+
+
+
+2012-05-16T11:53:20.333701Z
+23
+rkjangir
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+65ab7c23-6efc-46b9-97f0-004e50c42ebe
+
+META-INF
+dir
+
+Physics
+dir
+
+WEB-INF
+dir
+
+applet
+dir
+
+chemistry
+dir
+
+ekshiksha.jsp
+file
+
+
+
+
+2012-05-30T15:18:33.149000Z
+275a1d10a7b6f584aad47336ed6b1074
+2012-05-10T12:43:18.723231Z
+4
+service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6012
+
+ekshikshaMain.jsp
+file
+
+
+
+
+2012-05-30T15:18:35.800000Z
+b9365fe1cf56ca7a3e681e283d3742f4
+2012-05-10T12:43:18.723231Z
+4
+service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4086
+
+english
+dir
+
+images
+dir
+
+images_m_t_VII
+dir
+
+inc
+dir
+
+index.jsp
+file
+
+
+
+
+2012-05-30T15:18:33.139000Z
+6161fb3286fd478261709b801c31de8e
+2012-05-10T12:43:18.723231Z
+4
+service
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100
+
+js
+dir
+
+mail-template
+dir
+
+maths
+dir
+
+pages
+dir
+
+properties
+dir
+
+reports
+dir
+
+sql
+dir
+
+style
+dir
+
+template
+dir
+
+troubles
+dir
+

@@ -1,0 +1,27 @@
+/* 
+    Document   : ratingStyles
+    Created on : Jun 1, 2012, 2:32:47 PM
+    Author     : chandler
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+* To remove the underlines
+*/
+a, img
+{
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+/*
+* For the rating text to show rating and total votes
+*/
+#showRatingText, #thanksVote
+{
+    font-family: Calibri; 
+    font-size: 14px;
+    float: left; 
+}

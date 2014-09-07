@@ -1,0 +1,159 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package rating;
+
+
+import ekalavya.helper.EkShikshaDBConnection;
+import java.sql.*;
+/**
+ *
+ * @author Tushar
+ */
+public class rate {
+    
+    private Connection con = null;
+    private PreparedStatement pst = null;
+    private Statement st = null;
+    private ResultSet rs = null;
+    
+    public rate() {};
+    
+    /*
+     * List of Functions
+     * double getRating(int applet_id)
+     * int getTotalVotes(int applet_id)
+     * void storeRating(int applet_id, int rating)
+     */
+    
+    /*
+     * This Function is used to get the rating in double format for the given
+     * applet_id. The function returns double type value.
+     * Note: applet_id must be passed as parameter
+     */
+    
+    public double getRating(int applet_id){
+        
+        int total_votes = 1;
+        int total_value = -1;
+        double ret = -1.0;
+        try{
+            
+            con = EkShikshaDBConnection.getConnection();
+            String stm = "SELECT total_votes,total_value FROM ratings WHERE applet_id="+applet_id;
+            st = con.createStatement();
+            rs = st.executeQuery(stm);
+            while(rs.next())
+            {
+                total_votes = rs.getInt("total_votes");
+                total_value = rs.getInt("total_value");
+            }
+            ret = (double)total_value/total_votes;
+        }
+        
+        catch (SQLException e) {
+            
+            System.out.println("Connection Failed! Check output console");
+            e.printStackTrace();
+            return -1.0;
+        }
+        finally {
+            
+            if (rs != null) {
+                EkShikshaDBConnection.closeResultSet(rs);
+            }
+            if (st != null) {
+                EkShikshaDBConnection.closeStatement(st);
+            }
+            if (con != null) {
+                EkShikshaDBConnection.closeDBConnection(con);
+            }
+            return ret;
+        }
+        
+    }
+    
+    /*
+     * This function is used to get the total votes that for the given
+     * applet_id. The function returns int type value.
+     * Note: applet_id must be passed as parameter
+     */
+    
+    public int getTotalVotes(int applet_id){
+        
+        int total_votes = -1;
+        try{
+            
+            con = EkShikshaDBConnection.getConnection();
+            String stm = "SELECT total_votes FROM ratings WHERE applet_id="+applet_id;
+            st = con.createStatement();
+            rs = st.executeQuery(stm);
+            while(rs.next())
+            {
+                total_votes = rs.getInt("total_votes");
+            }
+        }
+        
+        catch (SQLException e) {
+            
+            System.out.println("Connection Failed! Check output console");
+            e.printStackTrace();
+            return -1;
+        }
+        finally {
+            
+            if (rs != null) {
+                EkShikshaDBConnection.closeResultSet(rs);
+            }
+            if (st != null) {
+                EkShikshaDBConnection.closeStatement(st);
+            }
+            if (con != null) {
+                EkShikshaDBConnection.closeDBConnection(con);
+            }
+            return total_votes;
+        }
+        
+    }
+    
+    /*
+     * This function stores the rating from 1-5 for the specified applet_id
+     * Note: Two parameters have to be passed - one for applet_id and the other
+     * for rating.
+     */
+    
+    public void storeRating(int applet_id, int rating){
+        
+        try{
+            
+            con = EkShikshaDBConnection.getConnection();
+            String stm = "UPDATE ratings SET total_value=total_value+"+rating+
+                    " WHERE applet_id="+applet_id+"; "+
+                    "UPDATE ratings SET total_votes=total_votes+1"+
+                    " WHERE applet_id="+applet_id;
+            st = con.createStatement();
+            st.executeQuery(stm);
+            
+        }
+        
+        catch (SQLException e) {
+            
+            System.out.println("Connection Failed! Check output console");
+            e.printStackTrace();
+        }
+        finally {
+            
+            if (rs != null) {
+                EkShikshaDBConnection.closeResultSet(rs);
+            }
+            if (st != null) {
+                EkShikshaDBConnection.closeStatement(st);
+            }
+            if (con != null) {
+                EkShikshaDBConnection.closeDBConnection(con);
+            }
+        }
+        
+    }
+}    

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+
+<struts-config>
+    <form-beans>
+        <form-bean name="HtmlContent" type="ekalavya.econtent.bean.HtmlContent"/>
+    </form-beans>
+
+    <global-exceptions>
+
+    </global-exceptions>
+
+    <global-forwards>
+        <forward name="welcome"  path="/Welcome.do"/>
+    </global-forwards>
+
+    <action-mappings>
+        <action path="/Welcome" forward="/welcomeStruts.jsp"/>
+
+         <!-- **************ekShiksha Actions starts here  **************-->
+       <!--
+        <action path="/showAllTopics"
+                type="ekalavya.econtent.action.ShowAllTopicsAction"
+                scope="session">
+            <forward name="success" path="showAllTopics"/>
+        </action>
+       <action path="/showContents"
+               type="org.apache.struts.actions.ForwardAction"
+               parameter="ShowContents"/>
+             -->
+        <!--<action path="/econtent" type="ekalavya.econtent.action.EContentHomeAction">
+            <forward name="success" path="eContentHome" />
+        </action>-->
+        <action path="/econtent" type="ekalavya.econtent.action.EContentHomeAction">
+            <forward name="success" path="ekShikshaHome" />
+        </action>
+        <action path="/changeLocale" parameter="method" type="ekalavya.econtent.action.ChangeLocale">
+           <forward name="success" path="/pages/eContent/changeLocale.jsp"/>
+       </action>
+       <action path="/eContent-Introduction"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="eContent-Introduction"/>
+
+
+
+       <action path="/showContents"
+                type="ekalavya.econtent.action.ShowContentAction"
+                scope="session">
+            <forward name="success" path="ShowContents"/>
+       </action>
+
+       <action path="/eContent-Show"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="eContent-Show"/>
+
+        <!-- **************eContent Actions ends here**************    -->
+
+ <!-- ************** eContent Admin Action start here ************-->
+        <action path="/eContentAdmin"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="eContentAdmin"/>
+
+        <action path="/addLanguageForm"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="addLanguageForm"/>
+
+        <action path="/addLanguage"
+                type="ekalavya.econtent.action.AddLanguage">
+             <forward name="success" path="eContentAdmin"/>
+             <forward name="input" path="addLanguageForm"/>
+        </action>
+
+        <action path="/translateTopicPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="translateTopicPage"/>
+
+        <action path="/translateTopic"
+                type="ekalavya.econtent.action.TranslateTopic">
+             <forward name="success" path="translateTopicPage"/>
+             <forward name="input" path="translateTopicPage"/>
+        </action>
+
+        <action path="/addContentPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="addContentPage"/>
+
+        <action path="/addHtmlContent"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="addHtmlContent"/>
+
+        <action path="/addHtmlContentAction"
+                name="HtmlContent"
+                type="ekalavya.econtent.action.AddHtmlContentAction">
+              <forward name="success" path="addHtmlContent"/>
+              <forward name="error" path="addHtmlContent"/>
+        </action>
+
+        <action path="/addContent"
+                type="ekalavya.econtent.action.AddContentAction">
+             <forward name="success" path="eContentAdmin"/>
+             <forward name="input" path="addContentPage"/>
+        </action>
+   <action path="/addPropertyPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="addPropertyPage"/>
+
+        <action path="/addProperty"
+                type="ekalavya.econtent.action.AddPropertyAction">
+             <forward name="success" path="addPropertyPage"/>
+             <forward name="input" path="addPropertyPage"/>
+        </action>
+
+        <action path="/translatePropertyPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="translatePropertyPage"/>
+
+        <action path="/translateProperty"
+                type="ekalavya.econtent.action.TranslatePropertyAction">
+             <forward name="success" path="translatePropertyPage"/>
+             <forward name="input" path="translatePropertyPage"/>
+        </action>
+
+        <action path="/login" type="ekalavya.econtent.action.LoginAction">
+            <forward name="success" path="/pages/eContent/changeLocale.jsp"/>
+            <forward name="error" path="eContentHome"/>
+        </action>
+
+        <action path="/logout" type="ekalavya.econtent.action.LogoutAction">
+            <forward name="success" path="eContentHome"/>
+        </action>
+
+        <action path="/translationPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="translationPage"/>
+        <action path="/reviewIt"
+                type="org.apache.struts.actions.ForwardAction"
+                forward="/pages/eContent/reviewer/reviewer.jsp"/>
+        <action path="/translateIt"
+                type="org.apache.struts.actions.ForwardAction"
+                forward="/pages/eContent/translator/translator.jsp"/>
+        <action path="/publishIt"
+                type="org.apache.struts.actions.ForwardAction"
+                forward="/pages/eContent/publisher/publisher.jsp"/>s
+        <action path="/showTranslationContents"
+                type="ekalavya.econtent.action.ShowTranslationContentAction"
+                scope="session">
+            <forward name="success" path="ShowTranslationContents"/>
+       </action>
+       <action path="/showTranslationPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="showTranslationPage"/>
+       <action path="/showReviewerPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="showReviewerPage"/>
+       <action path="/showPublisherPage"
+                type="org.apache.struts.actions.ForwardAction"
+                parameter="showPublisherPage"/>
+       <action path="/register" type="ekalavya.econtent.action.SignUpAction">
+            <forward name="success" path="successmessage"/>
+            <forward name="input" path="register"/>
+       </action>
+       <action path="/registerMe" type="org.apache.struts.actions.ForwardAction"
+               parameter="registerMe"/>
+       <action path="/userregistration" type="org.apache.struts.actions.ForwardAction"
+               parameter="userregistration"/>
+       <action path="/successmessage" type="org.apache.struts.actions.ForwardAction"
+               parameter="successmessage"/>
+       <action path="/registeruser" type="ekalavya.econtent.action.UserSignUpAction">
+            <forward name="success" path="successmessage"/>
+            <forward name="input" path="userregistration"/>
+       </action>
+       <action path="/accountrecovery" type="org.apache.struts.actions.ForwardAction"
+               parameter="accountrecovery"/>
+       <action path="/recoveraccount" type="ekalavya.econtent.action.AccountRecoveryAction">
+           <forward name="success" path="recoverysuccess"/>
+            <forward name="input" path="accountrecovery"/>
+       </action>
+       <action path="/aboutus" type="org.apache.struts.actions.ForwardAction"
+               parameter="aboutus"/>
+       <action path="/contactus" type="org.apache.struts.actions.ForwardAction"
+               parameter="contactus"/>
+       <action path="/faq" type="org.apache.struts.actions.ForwardAction"
+               parameter="faq"/>
+       <action path="/availableContents"
+                type="ekalavya.econtent.action.AvailableContentAction"
+                scope="session">
+            <forward name="success" path="availableContents"/>
+       </action>
+       <action path="/validateEmail" type="ekalavya.econtent.action.ValidateEmailAction">
+           <forward name="success" path="validateEmail"/>
+       </action>
+       <action path="/nomyaccount" type="ekalavya.econtent.action.NotMyAccountAction">
+           <forward name="success" path="nomyaccount"/>
+       </action>
+        <action path="/removeaccount" type="ekalavya.econtent.action.RemoveUserAction">
+           <forward name="success" path="removeaccount"/>
+       </action>
+       <action path="/sendfeedback" type="ekalavya.econtent.action.FeedbackAction">
+           <forward name="success" path="feedbacksuccess"/>
+           <forward name="input" path="feedback"/>
+       </action>
+       <action path="/feedback" type="org.apache.struts.actions.ForwardAction"
+               parameter="feedback"/>
+       <action path="/profile" type="org.apache.struts.actions.ForwardAction"
+               parameter="profile"/>
+       <action path="/changepassword" type="org.apache.struts.actions.ForwardAction"
+               parameter="changepassword"/>
+         
+       <action path="/updateprofile" type="ekalavya.econtent.action.UpdateProfileAction">
+           <forward name="success" path="profile"/>
+           <forward name="input" path="profile"/>
+       </action>
+       <action path="/updatepassword" type="ekalavya.econtent.action.UpdatePasswordAction">
+           <forward name="success" path="changepassword"/>
+           <forward name="input" path="changepassword"/>
+       </action>
+       <action path="/viewfeedbacks" type="org.apache.struts.actions.ForwardAction"
+               parameter="viewfeedbacks"/>
+       <action path="/privacysetting" type="org.apache.struts.actions.ForwardAction"
+               parameter="privacysetting"/>
+       <action path="/manageusers" type="org.apache.struts.actions.ForwardAction"
+               parameter="manageusers"/>
+       <action path="/interactivelearning" type="org.apache.struts.actions.ForwardAction"
+               parameter="interactivelearning"/>
+    <!-- ************** ekShiksha Actions end here ************-->
+    </action-mappings>
+
+    <controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/>
+
+    <message-resources parameter="ekalavya/helper/ApplicationResources"/>
+
+    <!-- ========================= Tiles plugin ===============================-->
+    <!--
+    This plugin initialize Tiles definition factory. This later can takes some
+    parameters explained here after. The plugin first read parameters from
+    web.xml, thenoverload them with parameters defined here. All parameters
+    are optional.
+    The plugin should be declared in each struts-config file.
+    - definitions-config: (optional)
+    Specify configuration file names. There can be several comma
+    separated file names (default: ?? )
+    - moduleAware: (optional - struts1.1)
+    Specify if the Tiles definition factory is module aware. If true
+    (default), there will be one factory for each Struts module.
+    If false, there will be one common factory for all module. In this
+    later case, it is still needed to declare one plugin per module.
+    The factory will be initialized with parameters found in the first
+    initialized plugin (generally the one associated with the default
+    module).
+    true : One factory per module. (default)
+    false : one single shared factory for all modules
+    - definitions-parser-validate: (optional)
+    Specify if xml parser should validate the Tiles configuration file.
+    true : validate. DTD should be specified in file header (default)
+    false : no validation
+
+    Paths found in Tiles definitions are relative to the main context.
+    -->
+    <plug-in className="org.apache.struts.tiles.TilesPlugin" >
+        <set-property property="definitions-config" value="/WEB-INF/tiles-defs.xml" />
+        <set-property property="moduleAware" value="true" />
+    </plug-in>
+
+    <!-- ========================= Validator plugin ================================= -->
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property
+            property="pathnames"
+            value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+    </plug-in>
+
+</struts-config>

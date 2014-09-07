@@ -1,0 +1,113 @@
+/*
+    Document   : errors
+    Created on : 8 Mar, 2011, 11:28:18 AM
+    Author     : rkjangir
+    Description:
+        Purpose of the stylesheet follows.
+    To display the error page correctly and well designed.
+*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+background: #25579c;
+font-size: 12px;
+font-family: Verdana, Tahoma, Arial, sans-serif;
+color: #222;
+}
+
+h3 { color: #aaa; font-size: 13px; margin: 10px 0 10px 0; }
+
+ol { padding-left: 20px; }
+img { border: none; }
+a { color: #1D87EF; text-decoration: none; }
+a:hover { text-decoration: underline; color : #ff0000; }
+
+#wrap {
+margin: 20px auto;
+width: 1000px;
+}
+
+#top {
+background: #25579c;
+padding: 5px 0;
+}
+
+#header {
+background: #eee;
+height: 100px;
+}
+#header h1 {
+font-size: 30px;
+font-weight: 100;
+letter-spacing: -1px;
+padding: 20px 0 0 30px;
+}
+#header h1 a {
+text-decoration: none;
+color: #25579c;
+}
+#header h1 a:hover {
+text-decoration: none;
+color: #000;
+}
+#header h2 {
+color: #30A5F2;
+font-size: 17px;
+font-weight: 100;
+letter-spacing: -1px;
+padding: 0 0 0 30px;
+}
+#header .logo {
+    width: 650px;
+    float:left;
+}
+#header .details {
+    width: 300px;
+    float:right;
+    padding-top: 35px;
+    padding-right:25px;
+    text-align: right;
+    color: #30A5F2;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#content {
+padding: 10px 10px;
+background: #fefefe;
+min-height: 300px;
+padding-bottom: 30px;
+}
+
+#content h2 {
+color: #B4241B;
+font-size: 20px;
+letter-spacing: 0px;
+font-weight: 100;
+padding : 20px 0 15px 25px;
+
+}
+#content p {
+font-size: 16px;
+letter-spacing: 0px;
+font-weight: 100;
+padding : 10px 0 0px 25px;
+}
+#content ul {
+    margin : 10px 0 0px 50px;
+}
+#content li {
+    list-style: decimal;
+}
+#footer {
+background: #333 url(..images/footer.gif) no-repeat;
+height: 30px;
+text-align: center;
+line-height: 30px;
+color: #eee;
+font-size: 11px;
+}
+#footer  a { color: #eee; }

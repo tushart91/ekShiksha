@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/struts-logic.tld
+END
+validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/validation.xml
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/struts-html.tld
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/struts-config.xml
+END
+validator-rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/validator-rules.xml
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/struts-bean.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/struts-tiles.tld
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/web.xml
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/struts-nested.tld
+END
+tiles-defs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/projects/!svn/ver/4/ekShiksha/web/WEB-INF/tiles-defs.xml
+END

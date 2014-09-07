@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" crossContext="true" docBase="ekShiksha2012" path="/ekShiksha2012" reloadable="true">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="50" maxIdle="10" maxWait="10" name="jdbc/ekshiksha" password="ekshiksha123" removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" url="jdbc:postgresql://localhost/ekShiksha" username="ekshiksha"/>
+</Context>
